@@ -1,13 +1,12 @@
 {
-  "name": "gulu",
-  "version": "0.0.1",
+  "name": "fruitplus-test",
+  "version": "0.0.3",
   "description": "这是个ui框架",
   "main": "index.js",
   "scripts": {
-    "dev-test": "concurrently parcel watch test/* --no-cache & karma start",
+    "dev-test": "concurrently \"parcel watch test/* --no-cache\" \"karma start\"",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run",
-    "dev-test1":"parcel watch test/* --no-cache ",
-    "dev-test2":"karma start"
+    "testK":"karma start"
   },
   "repository": {
     "type": "git",
